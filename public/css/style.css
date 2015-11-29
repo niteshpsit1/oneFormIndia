@@ -1,0 +1,98 @@
+
+header{
+    width: 100%;
+}
+header Navbar{
+    width: 98%;
+}
+div.of-imgCont, div.of-formCont{
+    //border: 1px solid black;
+    height: 500px;
+}
+div.of-imgCont{
+    background: url('../img/imgone.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+}
+div.of-formCont{
+    overflow: hidden;
+    padding-left: 80px;
+}
+div.of-formCont form Input[type="text"], div.of-formCont form Input[type="email"], div.of-formCont form Input[type="password"]{
+    height:40px;
+}
+div.of-formCont form Input[type="radio"]{
+    display: inline-block;
+}
+
+/*footer custom styles goes here*/
+
+footer{
+    width: 100%;
+    background-color: grey;
+    margin-bottom: 0;
+}
+.of-footer{
+    background-color: grey;
+    color: white;
+    height: 100px;
+    width: 94%;
+    margin: 20px auto;
+}
+.of-flLogo, .of-flCopy{
+    height: 50px;
+}
+.of-fRight Button{
+    color: white;
+}
+
+/*navigation bar custum styles*/
+.of-navigation{
+    width: 100%;
+    margin-top: -20px;
+    background-color: aqua;
+    height: 45px;
+}
+.of-nContainer{
+    width: 95%;
+    margin: 0 auto;
+    height: 45px;
+}
+.of-ncLeft{
+    padding-top: ;
+}
+.of-ncRight{
+    height: 45px;
+}
+.of-ncRight Input{
+    margin-top: 5px;
+    width: 60%;
+    float: right;
+}
+
+/*institute profile container*/
+.of-ipContainer{
+    margin: 20px;
+}
+.of-ipContainer .of-ipcCont{
+    width: 100%;
+    margin: 0 auto;
+}
+.of-ipContainer .of-ipcCont Col{
+}
+
+
+/*institute create form custum styles goes here*/
+.of-cfcAdd{
+    border-right: 1px solid grey;
+}
+.of-cfcAddedItem{
+}
+
+
+/**schedule management**/
+.of-sChange{
+    display: none;
+}

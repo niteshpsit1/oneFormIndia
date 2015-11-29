@@ -1,0 +1,38 @@
+{
+  "name": "ofi",
+  "version": "1.0.0",
+  "description": "create submit forms",
+  "main": "ofi.js",
+  "scripts": {
+    "test": "hellodear"
+  },
+  "keywords": [
+    "react",
+    "react-router",
+    "webpack"
+  ],
+  "author": "deepak meena",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^5.8.25",
+    "babel-loader": "^5.3.2",
+    "event-emitter": "^0.3.3",
+    "flux": "^2.1.1",
+    "react-bootstrap": "^0.25.2",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.11.0"
+  },
+  "dependencies": {
+    "bookshelf": "^0.8.2",
+    "handlebars": "^4.0.3",
+    "hapi": "^8.0.0",
+    "knex": "^0.8.6",
+    "lodash": "^3.10.1",
+    "mysql": "^2.9.0",
+    "object-assign": "^4.0.1",
+    "q": "^1.4.1",
+    "react": "^0.13.3",
+    "react-router": "^0.13.3",
+    "request": "^2.62.0"
+  }
+}
